@@ -57,9 +57,6 @@ export default function Home() {
         background-color: #4f4f4f;
       }
 
-      .white{
-        color: #ffffff;
-      }
 
       .bg1{
         background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Downtown_Cincinnati_viewed_from_Mt._Adams.jpg/1920px-Downtown_Cincinnati_viewed_from_Mt._Adams.jpg");

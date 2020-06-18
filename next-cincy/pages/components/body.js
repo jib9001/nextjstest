@@ -7,7 +7,7 @@ export default function Body() {
   
     return (
         <div className="main-bg">
-            <Button color="inherit" className="bottom-center">
+            <Button className="bottom-center">
                 <ArrowDownward/>
                 Scroll Down
             </Button>

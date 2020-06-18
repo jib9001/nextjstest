@@ -50,8 +50,8 @@ export default function Home() {
       }
 
       .bottom-center{
-        margin-left: 50%;
-        margin-right: 50%;
+        margin-left: 40%;
+        margin-right: 40%;
         margin-top: -20vh;
         color: #ffffff;
         background-color: #4f4f4f;

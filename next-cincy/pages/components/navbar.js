@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   title: {
-    flexGrow: 1,
+    //flexGrow: 1,
   },
 }));
 
@@ -23,18 +24,28 @@ export default function ButtonAppBar() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <AppBar position="fixed">
-        <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            News
-          </Typography>
-          <Button color="inherit">Login</Button>
-        </Toolbar>
+      <AppBar position="fixed" className="full-width">
+          <Grid container justify="space-between" alignContent="center" alignItems="center" spacing={1}>
+            <Grid item xs={1}>
+              <p>Cincy is IT</p>
+            </Grid>
+            <Grid item xs={8}></Grid>
+            <Grid item xs={1}>
+              <Button color="inherit">
+                Live
+              </Button>
+            </Grid>
+            <Grid item xs={1}>
+              <Button color="inherit">
+                Work
+              </Button>
+            </Grid>
+            <Grid item xs={1}>
+              <Button color="inherit">
+                Play
+              </Button>
+            </Grid>
+          </Grid>
       </AppBar>
-    </div>
   );
 }

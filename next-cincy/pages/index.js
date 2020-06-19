@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import NavBar from './components/navbar'
-import Header from './components/header'
-import Body from './components/body'
+import Head from 'next/head';
+import NavBar from './components/navbar';
+import Header from './components/header';
+import Body from './components/body';
 
 export default function Home() {
   return (
@@ -21,6 +21,7 @@ export default function Home() {
       body, html {
         margin: 0;
         font-family: 'Roboto', sans-serif;
+        font-size: 20px
       }
 
       .full-width{
@@ -50,16 +51,17 @@ export default function Home() {
       }
 
       .bg1{
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Downtown_Cincinnati_viewed_from_Mt._Adams.jpg/1920px-Downtown_Cincinnati_viewed_from_Mt._Adams.jpg");
+        background-image: url("../static/PurpleCincinnati.png");
       }
 
       .bg2{
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Washington_Park_Denver.JPG");
+        background-image: url("../static/TealPark.png");
       }
 
       .main-bg{
-        background-color: #4f4f4f;
-        color: #cccccc;
+        background-color: #f7f7f7;
+        color: #008071;
+        text-align: center;
       }
       `}</style>
     </div>

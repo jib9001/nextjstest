@@ -5,6 +5,14 @@ export default function Body() {
   
     return (
         <div className="main-bg">
+            <br/><br/><br/>
+            <Grid container>
+                <Grid item xs={4}></Grid>
+                <Grid item xs={4}>
+                    <img className="flexW" src="logo.png" alt="Cincy is IT" />
+                </Grid>
+                <Grid item xs={4}></Grid>
+            </Grid>
             
             <Grid container>
                 <Grid item xs={4}></Grid>

@@ -7,9 +7,10 @@ import { makeStyles } from '@material-ui/styles'
 const useStyles = makeStyles({
     button: {
       marginLeft: "48%",
+      marginRight: "48%",
       background: 'white',
-      color: '#4f4f4f'
-  }
+      color: '#4f4f4f',
+  },
 });
 
 
@@ -27,7 +28,7 @@ export default function ButtonAppBar() {
                 Scroll Down
             </Button>
             
-            <style jsx global>{`
+            <style jsx>{`
 
                 .space80{
                     height: 85vh;

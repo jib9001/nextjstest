@@ -1,16 +1,11 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import ArrowDownward from '@material-ui/icons/ArrowDownward';
-import Button from '@material-ui/core/Button';
 
 export default function Body() {
   
     return (
         <div className="main-bg">
-            <Button className="bottom-center">
-                <ArrowDownward/>
-                Scroll Down
-            </Button>
+            
             <Grid container>
                 <Grid item xs={4}></Grid>
                 <Grid item xs={4}>
@@ -53,6 +48,7 @@ export default function Body() {
                 </Grid>
                 <Grid item xs={4}></Grid>
             </Grid>
+
        
         </div>
     );

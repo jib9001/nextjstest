@@ -49,15 +49,6 @@ export default function Home() {
         background-size: cover;
       }
 
-      .bottom-center{
-        margin-left: 50%;
-        margin-right: 50%;
-        margin-top: -20vh;
-        color: #ffffff;
-        background-color: #4f4f4f;
-      }
-
-
       .bg1{
         background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Downtown_Cincinnati_viewed_from_Mt._Adams.jpg/1920px-Downtown_Cincinnati_viewed_from_Mt._Adams.jpg");
       }
@@ -68,7 +59,7 @@ export default function Home() {
 
       .main-bg{
         background-color: #4f4f4f;
-        color: #cccccc
+        color: #cccccc;
       }
       `}</style>
     </div>

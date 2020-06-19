@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import NavBar from './components/navbar'
-import Header from './components/header'
-import Body from './components/body'
+import Head from 'next/head';
+import NavBar from './components/navbar';
+import Header from './components/header';
+import Body from './components/body';
 
 export default function Home() {
   return (
@@ -19,30 +19,49 @@ export default function Home() {
     
       <style jsx global>{`
       body, html {
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/70/Downtown_Cincinnati_viewed_from_Mt._Adams.jpg");
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px
+      }
 
+      .full-width{
+        width: 100%;
+      }
+
+      .parallax-full{
         /* Full height */
-        height: 100%;
+        height: 100vh;
     
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
-        margin: 0;
       }
 
-      .parallax{
-        margin-bottom: 100vh;
+      .parallax-half{
+        /* Half height */
+        height: 50vh;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .bg1{
+        background-image: url("../static/PurpleCincinnati.png");
+      }
+
+      .bg2{
+        background-image: url("../static/TealPark.png");
       }
 
       .main-bg{
-        background-color: #4f4f4f;
-      }
-
-      .content{
-        background-color: #cccccc;
+        background-color: #f7f7f7;
+        color: #008071;
+        text-align: center;
       }
       `}</style>
     </div>

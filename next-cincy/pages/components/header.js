@@ -6,8 +6,7 @@ import { makeStyles } from '@material-ui/styles'
 
 const useStyles = makeStyles({
     button: {
-      marginLeft: "48%",
-      marginRight: "48%",
+      marginLeft: "45%",
       background: 'white',
       color: '#4f4f4f',
   },

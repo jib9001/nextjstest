@@ -58,6 +58,14 @@ export default function Home() {
         background-image: url("../static/TealPark.png");
       }
 
+      .bg3{
+        background-image: url("../static/BlueApartment.png");
+      }
+
+      .bg4{
+        background-image: url("../static/TealHousing.png");
+      }
+
       .main-bg{
         background-color: #f7f7f7;
         color: #008071;

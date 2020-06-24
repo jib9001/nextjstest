@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
@@ -27,15 +28,19 @@ export default function ButtonAppBar() {
         <AppBar classes={{root: classes.root, }} position="fixed">
             <Grid container justify="flex-end" alignContent="center" alignItems="center" spacing={1}>
               <Grid item xs={1} zeroMinWidth>
+              <Link href="/index">
                <Button color="inherit">
                   <img className="flexW" src="logo.png" alt="Cincy is IT" />
                 </Button>
+                </Link>
               </Grid>
               <Grid item xs={8}></Grid>
               <Grid item xs={1}>
+              <Link href="/live">
                 <Button color="inherit">
                   Live
                 </Button>
+                </Link>
               </Grid>
               <Grid item xs={1}>
                 <Button color="inherit">

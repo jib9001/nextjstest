@@ -16,6 +16,22 @@ npm run dev
 yarn dev
 ```
 
+There is sometimes some inconsistency with the application of css style overrides on the dev server
+To view how this would work in production, build the project
+Then run the production version of the site
+
+Build the project
+
+```bash
+npm run build
+```
+
+Run the production version of the project using what you just built
+
+```bash
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.

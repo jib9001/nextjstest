@@ -2,6 +2,17 @@
   "name": "next-cincy",
   "version": "0.1.0",
   "private": true,
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true
+      }
+    ]
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,6 +23,7 @@
     "@material-ui/icons": "^4.9.1",
     "next": "9.4.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "babel-plugin-styled-components": "^1.8.0"
   }
 }
